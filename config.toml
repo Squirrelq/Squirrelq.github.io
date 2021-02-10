@@ -1,12 +1,12 @@
-baseURL = "http://www.topwisebrewing.com.au/topwisebrewing.github.io/"
+baseURL = "https://www.topwisebrewing.com.au"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "Hallo"
+title = "Topwise Brewing"
 theme = "hallo-hugo-master"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-    name = "Hallo"
+    name = "Top Shelf Joose"
 
 [params]
 
@@ -14,15 +14,15 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
         iconset = "fas"
         icon = "envelope"
         title = "E-mail"
-        url = "mailto:mail@example.org"
+        url = "mailto:topwisebrewing@gmail.com"
 
     [[params.links]]
-        icon = "github"
-        title = "Github"
-        url = "https://github.com/"
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://www.instagram.com/topwisebrewing/"
 
     [[params.links]]
-        icon = "twitter"
-        title = "Twitter"
-        url = "https://twitter.com/"
+        icon = "facebook"
+        title = "Facebook"
+        url = "https://www.facebook.com/topwisebrewing/"
       
