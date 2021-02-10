@@ -6,7 +6,7 @@ theme = "hallo-hugo-master"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-    name = "Top Shelf Joose"
+    name = "Topwise Brewing"
 
 [params]
 
