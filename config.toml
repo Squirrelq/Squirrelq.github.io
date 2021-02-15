@@ -10,6 +10,8 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [params]
 
+	gtm = "GTM-W3BTHD2"
+
     [[params.links]]
         iconset = "fas"
         icon = "envelope"
