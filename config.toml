@@ -26,5 +26,5 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     [[params.links]]
         icon = "facebook"
         title = "Facebook"
-        url = "https://raw.githubusercontent.com/Squirrelq/Squirrel.github.io/main/Facebook-page-coming-soon.png"
+        url = "https://www.facebook.com/Topwise-Brewing-109624477833155/"
       
