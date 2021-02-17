@@ -21,7 +21,8 @@
     {{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
     {{- $style			:= resources.Get "scss/hallo.scss" | resources.ExecuteAsTemplate "style.hallo.scss" . | toCSS $cssOptions }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-     
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.29/default/snipcart.css" />
     <link rel="preconnect" href="https://app.snipcart.com">
     <link rel="preconnect" href="https://cdn.snipcart.com">
