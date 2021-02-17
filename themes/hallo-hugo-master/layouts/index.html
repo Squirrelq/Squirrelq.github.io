@@ -2,7 +2,9 @@
 
 <main>
     <div class="block introduction">
+            <a href="https://www.topwisebrewing.com.au">
             <img src="images/logo.png" alt="Portrait" width="300" height="95"/>
+	</a>
         </div>
         <div class="column right">
             {{- with .Param "greeting" -}}
@@ -14,7 +16,7 @@
 
             <div class="links">
                 {{- range .Site.Params.links -}}
-                    <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
+                    <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}" target="_blank">
                         <span class="{{ .iconset | default "fab" }} {{.iconorigin | default "fa" }}-{{ .icon }}"></span>
                     </a>
                 {{- end -}}
