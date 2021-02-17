@@ -54,14 +54,14 @@ main .block {
   display: flex; }
 
 main .block.introduction {
-  margin-top: 20vh;
-  min-height: calc(100vh - 20vh); }
+  margin-top: 5vh;
+  min-height: calc(5vh - 5vh); }
 
 main .column.left {
   text-align: end; }
 
 main .column.right h1 {
-  margin-left: -10px;
+  margin-left: 0px;
   /* Correction for margin of leftmost character. */
   margin-bottom: 0.4em; }
 
@@ -72,7 +72,7 @@ main .column.right h2 {
 
 main .column.right .links {
   margin-top: 2.5rem;
-  font-size: 1.5rem; }
+  font-size: 2rem; }
   main .column.right .links a {
     margin-right: 0.5rem;
     text-decoration: none; }
