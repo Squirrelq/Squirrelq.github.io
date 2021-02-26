@@ -1,1 +1,8 @@
-<div class="ecsp ecsp-SingleProduct-v2 ecsp-SingleProduct-v2-bordered ecsp-SingleProduct-v2-centered ecsp-Product ec-Product-303015401" itemscope itemtype="http://schema.org/Product" data-single-product-id="303015401"><div itemprop="image"></div><div class="ecsp-title" itemprop="name" content="Spin the Middle Side - 4 x 440mL"></div><div itemtype="http://schema.org/Offer" itemscope itemprop="offers"><div class="ecsp-productBrowser-price ecsp-price" itemprop="price" content="45" data-spw-price-location="button"><div itemprop="priceCurrency" content="AUD"></div></div></div><div customprop="options"></div><div customprop="qty"></div><div customprop="addtobag"></div></div><script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?49590030&data_platform=singleproduct_v2" charset="utf-8"></script><script type="text/javascript">xProduct()</script>
+---
+title: "store - index.md (no underscore)"
+date: 2020-08-19T14:44:21+01:00
+---
+
+## example subheader
+
+Whose face was white as snow
