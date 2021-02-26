@@ -1,4 +1,4 @@
-baseURL = "https://squirrelq.github.io/public/"
+baseURL = "https://squirrelq.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Topwise Brewing"
