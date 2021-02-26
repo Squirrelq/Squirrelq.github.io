@@ -4,6 +4,7 @@ defaultContentLanguage = "en"
 title = "Topwise Brewing"
 theme = "hallo-hugo-master"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+sectionPagesMenu = "store"
 
 [Author]
     name = "Topwise Brewing"
