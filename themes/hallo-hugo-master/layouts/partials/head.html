@@ -1,4 +1,35 @@
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #62bbac;
+}
+
+.topnav a {
+  float: right;
+  color: #020202;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #945b73;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #74e8d5;
+  color: white;
+}
+</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{- if .IsHome }}
