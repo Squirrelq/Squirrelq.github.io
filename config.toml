@@ -3,8 +3,9 @@ languageCode = "en"
 defaultContentLanguage = "en"
 title = "Topwise Brewing"
 theme = "hallo-hugo-master"
-disableKinds = ["taxonomy", "taxonomyTerm"]
-sectionPagesMenu = "store"
+sectionPagesMenu = "main"
+custom_css = ["css/custom.css"]
+custom_js = ["js/custom.js"]
 
 [Author]
     name = "Topwise Brewing"
