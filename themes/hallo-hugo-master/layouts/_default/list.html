@@ -1,1 +1,27 @@
+{{ define "main" }}
 
+<main>
+        <div class="block introduction">
+            <a href="https://www.topwisebrewing.com.au">
+            <img src="images/logo.png" alt="Portrait" class="animate__animated animate__bounceInDown animate__slower" width="300" height="95"/>
+	</a>
+       </div>
+         <div class="column right"><h1>Find Our Beer!</h1>
+            <h2>Coming Soon</h2>
+               <p>List will be updated once first production run hits the shelves late March!</p>
+                 <div class=links><a rel=me href=mailto:topwisebrewing@gmail.com title=E-mail target=_blank><span class="fas fa-envelope"></span></a><a rel=me href=https://www.instagram.com/topwisebrewing/ title=Instagram target=_blank><span class="fab fa-instagram"></span></a><a rel=me href=https://www.facebook.com/Topwise-Brewing-109624477833155/ title=Facebook target=_blank><span class="fab fa-facebook"></span></a>
+               </div>
+            </div>
+        </div>
+  
+    {{- if (fileExists "layouts/partials/content.html") -}}
+        <div class="block">
+            <div class="column left"></div>
+            <div class="column right">
+                {{- partial "content.html" . -}}
+            </div>
+        </div>
+    {{- end -}}
+</main>
+
+{{ end }}
