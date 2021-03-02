@@ -23,12 +23,7 @@
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <link rel="stylesheet" href="https://squirrelq.github.io/static/style.css">
     
-    <link href='https://fonts.googleapis.com/css?family=Raleway:600,900,400' rel='stylesheet' type='text/css'>
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.29/default/snipcart.css">
-    <link rel="preconnect" href="https://app.snipcart.com">
-    <link rel="preconnect" href="https://cdn.snipcart.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" crossorigin="anonymous">
     
@@ -41,27 +36,6 @@
     <!-- RSS -->
     <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-    jQuery(document).ready(function($){
-
-if (sessionStorage.getItem('advertOnce') !== 'true') {
-//sessionStorage.setItem('advertOnce','true');
-  $('.box').show();
-}else{
-  $('.box').hide();
-}
- 
-$('#refresh-page').on('click',function(){
-$('.box').hide();
-sessionStorage.setItem('advertOnce','true');
-});
-  
-$('#reset-session').on('click',function(){
-$('.box').show();
-sessionStorage.setItem('advertOnce','');
-});
- 
-});
-    
     {{ if hugo.Environment | eq "production" }}
         {{ template "_internal/google_analytics_async.html" . }}
     {{ end }}
