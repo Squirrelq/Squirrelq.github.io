@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<main>
+        <div class="block introduction">
+            <a href="https://www.topwisebrewing.com.au">
+            <img src="images/website logo.webp" alt="Portrait" class="animate__animated animate__bounceInDown animate__slow" width="270" height="100"/>
+	</a>
+        </div>
+        <div class="column right">
+            {{- with .Param "greeting" -}}
+                {{- else -}}
+                <h1>{{ i18n "hello" }}</h1>
+            {{- end -}}
+            <h2>{{ "Dedicated to Haze" }}.</h2>
+            <p>{{- partial "introduction.html" . -}}</p>
+
+            <div class="links">
+                {{- range .Site.Params.links -}}
+                    <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}" target="_blank">
+                        <span class="{{ .iconset | default "fab" }} {{.iconorigin | default "fa" }}-{{ .icon }}"></span>
+                    </a>
+                {{- end -}}
+            </div>
+        </div>
+    </div>
+    {{- if (fileExists "layouts/partials/content.html") -}}
+        <div class="block">
+            <div class="column left"></div>
+            <div class="column right">
+                {{- partial "content.html" . -}}
+            </div>
+        </div>
+    {{- end -}}
+</main>
+
+{{ end }}
