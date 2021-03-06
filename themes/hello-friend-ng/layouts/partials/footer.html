@@ -1,0 +1,25 @@
+<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; {{ now.Format "2006" }}</span>
+            {{ if .Site.Author.name }}<span><a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></span>{{ end }}
+            {{ if .Site.Copyright }}<span>{{ .Site.Copyright| safeHTML }}</span>{{ end }}
+            {{ if (in (.Site.Language.Get "disableKinds") "RSS") }}<span><a href="{{ "posts/index.xml" | absLangURL }}" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>{{ end }}
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            {{ if .Site.Params.footerLeft }}<span>{{ .Site.Params.footerLeft }}</span>{{ end }}
+            {{ if .Site.Params.footerRight }}<span>{{ .Site.Params.footerRight }}</span>{{ end }}
+          </div>
+    </div>
+ <div id="age-verify">
+<div style="max-width: 350px;margin:0 auto;padding-top: 80px;text-align:center"><h2 style="color:black">Are you 18 or older?</h2><p>Please verify your age to view the content, or click Exit to leave.</p><button style="background: #4fd2cc" onclick="acceptCookie();">I'm 18+</button><br><a style="color:black" href="about:blank"><button style="background: #d6b720">I'll come back when I'm older</button></a></div></div>
+
+<style>#age-verify{position: fixed;z-index: 9998;top: 0;right: 0;left: 0;bottom: 0;width: 100%;height: 100%;background-color:  rgba(250, 250, 250, 0.80);color:#000;font-family:inherit;padding:20px;visibility:hidden;backdrop-filter: blur(5px)}
+#age-verify button{color:inherit;border:0;padding:10px;margin-top:10px;width:100%;cursor:pointer}
+@media only screen and (max-width:600px){#age-verify{max-width:100%;bottom:0;left:0;border-radius:0}}</style>
+<style>a {text-decoration: none;} </style>
+
+<script>function acceptCookie(){document.cookie="cookieaccepted=1; expires=Thu, 18 Dec 2030 12:00:00 UTC; path=/",document.getElementById("age-verify").style.visibility="hidden"}document.cookie.indexOf("cookieaccepted")<0&&(document.getElementById("age-verify").style.visibility="visible");</script>
+</footer>
