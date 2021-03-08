@@ -89,13 +89,15 @@ a {
 }
 
 svg:hover {
-  color: #088188;
+  color: #6ba8dc;
+  outline: inset;
   transition: color .6s;
 }
 
 svg {
   z-index: 9999;
   position: relative;
+  color: #244
 }
 
 img {
