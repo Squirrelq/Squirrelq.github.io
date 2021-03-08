@@ -22,4 +22,8 @@
 <style>a {text-decoration: none;} </style>
 
 <script>function acceptCookie(){document.cookie="cookieaccepted=1; expires=Thu, 18 Dec 2030 12:00:00 UTC; path=/",document.getElementById("age-verify").style.visibility="hidden"}document.cookie.indexOf("cookieaccepted")<0&&(document.getElementById("age-verify").style.visibility="visible");</script>
+  <div>
+     {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
 </footer>
