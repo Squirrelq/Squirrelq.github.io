@@ -93,6 +93,10 @@ svg:hover {
   transition: color .6s;
 }
 
+svg {
+  z-index: 9999;
+}
+
 img {
   display: block;
   max-width: 100%;
