@@ -89,6 +89,17 @@ a.button {
   }
 }
 
+button,
+.button,
+a.button:hover {
+  transform: scale(0.9);
+  background-color: #e2d237;
+  border: #e2d237;
+  color: #e2d237;
+  box-shadow: inset 2px 2px 3px 2px #81a095a6;
+  transition: ease-in-out 0.2s 0.05s;
+}
+
 .code-toolbar {
   margin-bottom: 20px;
 
