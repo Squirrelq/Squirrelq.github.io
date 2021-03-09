@@ -84,6 +84,7 @@
     margin-left: 10px;
     cursor: pointer;
     display: none;
+    z-index: 9998;
 
     @media #{$media-size-phone} {
       display: block;
