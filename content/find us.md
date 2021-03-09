@@ -8,4 +8,4 @@ aliases = ["stockists","where to buy","find us"]
 ---
 ### List of awesome retailers that are stocking our goods
 
-Coming Soon!
+Available in good independant, crafty bottleshops and online through our webstore from 26th March!
