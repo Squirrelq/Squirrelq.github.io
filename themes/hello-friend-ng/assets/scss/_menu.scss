@@ -50,19 +50,23 @@
       font-weight: 600;
       letter-spacing: -1px;
       word-spacing: -1px;
-      background-color: #8fddcff7;
-      line-height: 14px;
+      line-height: 20px;
     }
 
-      li {
+      @media #{$media-size-phone} {
         margin: 0;
-        padding: 4px;
+        padding: 2px;
         border-radius: 3rem 3rem 3rem 0.05rem;
         mix-blend-mode: color-burn;
         background-color: #74d6c4;
         background-clip: content-box;
         align-self: normal;
+        border-top-style: none;
+        border-right-style: solid;
         border-bottom-style: solid;
+        border-left-style: none;
+        border-right-width: thin;
+        border-bottom-width: medium;
       }
     }
 
