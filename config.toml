@@ -36,7 +36,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Topwise Brewing"
+  name = "Topwise Brewing - ABN 43 006 100 371"
 
 [taxonomies]
   tag      = "tags"
