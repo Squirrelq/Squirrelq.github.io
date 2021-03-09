@@ -32,7 +32,7 @@ a.button {
   }
   
   :hover {
-      transform: scale(0.9);
+      transform: scale(0.95);
       background-color: #e2d237;
       border: #e2d237;
       color: #e2d237;
@@ -52,7 +52,7 @@ a.button {
     }
 
     :hover {
-      transform: scale(0.9);
+      transform: scale(0.95);
       background-color: #e2d237;
       border: #e2d237;
       color: #e2d237;
@@ -65,7 +65,7 @@ a.button {
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 
     &:hover {
-      transform: scale(0.9);
+      transform: scale(0.95);
       background-color: #e2d237;
       border: #e2d237;
       color: #e2d237;
@@ -92,7 +92,7 @@ a.button {
 button:hover,
 .button:hover,
 a.button:hover {
-  transform: scale(0.9);
+  transform: scale(0.95);
   background-color: #e2d237;
   border: #e2d237;
   color: #e2d237;
