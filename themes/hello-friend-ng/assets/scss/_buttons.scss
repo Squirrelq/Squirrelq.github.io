@@ -23,7 +23,7 @@ a.button {
   appearance: none;
   cursor: pointer;
   outline: none;
-  box-shadow: inset 2px 2px 3px 2px rgb(201 255 235 / 25%);
+  box-shadow: inset 2px 2px 3px 2px #c9ffeb40;
  
   @media (prefers-color-scheme: dark) {
     background: $dark-background-secondary;
