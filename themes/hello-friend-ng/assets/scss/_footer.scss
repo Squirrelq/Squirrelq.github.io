@@ -1,7 +1,10 @@
 .footer {
-  padding: 25px 20px;
+  padding: 7px 12px;
   flex-grow: 0;
   color: $light-color-secondary;
+  word-spacing: -1px;
+  letter-spacing: -1px;
+}
 
   &__inner {
     display: flex;
