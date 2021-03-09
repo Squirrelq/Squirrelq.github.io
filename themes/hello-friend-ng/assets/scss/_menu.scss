@@ -1,5 +1,11 @@
 .menu {
   z-index: 9990;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  border: none;
+  margin: 0;
+  padding: 10px;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
@@ -15,9 +21,6 @@
   }
 
   &__inner {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 0;
       flex-direction: column;
       align-items: flex-start;
       padding: 0;
@@ -96,8 +99,8 @@
     fill: currentColor;
     margin-left: 10px;
     cursor: pointer;
-    display: none;
-
+    display: block;
+	  
     @media #{$media-size-phone} {
       display: block;
     }
