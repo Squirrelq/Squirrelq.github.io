@@ -25,7 +25,17 @@
     list-style: none;
 
     li {
-      margin: 0 6px;
+      margin: 0 4px;
+      padding: 2px;
+      border-radius: 3rem 3rem 3rem 3rem;
+      background-color: #74d6c4;
+      border-style: solid;
+      border-right-width: medium;
+      border-bottom-width: medium;
+      border-bottom-color: #6cc7b7;
+      border-right-color: #6cc7b7;
+      border-top-color: #7be3d1;
+      border-left-color: #7be3d1;
     }
 
     @media #{$media-size-phone} {
