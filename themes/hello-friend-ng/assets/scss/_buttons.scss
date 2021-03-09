@@ -89,8 +89,8 @@ a.button {
   }
 }
 
-button,
-.button,
+button:hover,
+.button:hover,
 a.button:hover {
   transform: scale(0.9);
   background-color: #e2d237;
