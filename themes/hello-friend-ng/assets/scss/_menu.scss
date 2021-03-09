@@ -53,6 +53,25 @@
       border-left-color: #7be3d1;
     }
   }
+  
+      @media #{$media-size-phone} {
+    li {
+      margin: 0;
+      padding: 2px;
+      border-radius: 3rem 3rem 3rem 0.05rem;
+      mix-blend-mode: color-burn;
+      background-color: #74d6c4;
+      background-clip: content-box;
+      align-self: normal;
+      border-top-style: none;
+      border-right-style: solid;
+      border-bottom-style: solid;
+      border-left-style: none;
+      border-right-width: thin;
+      border-bottom-width: medium;
+    }
+  }
+  
       @media #{$media-size-phone} {
     .menu_inner li {
       margin: 0;
