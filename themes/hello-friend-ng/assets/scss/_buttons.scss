@@ -16,13 +16,15 @@ a.button {
   background: $light-background-secondary;
   text-decoration: none;
   text-align: center;
+  text-transform: uppercase;
   font-weight: 500;
   border-radius: 8px;
   border: 1px solid transparent;
   appearance: none;
   cursor: pointer;
   outline: none;
-
+  box-shadow: inset 2px 2px 3px 2px rgb(201 255 235 / 25%);
+ 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-secondary;
     color: inherit;
@@ -41,7 +43,10 @@ a.button {
 
     :hover {
       transform: none;
-      box-shadow: none;
+      background-color: #e2d237;
+      border: #e2d237;
+      box-shadow: inset 2px 2px 3px 2px rgb(129 160 149 / 65%);
+      transition: ease-in-out 0.2s 0.1s;
     }
   }
 
