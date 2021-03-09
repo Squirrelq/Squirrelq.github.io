@@ -65,7 +65,12 @@ a.button {
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 
     &:hover {
-      box-shadow: 0 2px 6px rgba(50, 50, 93, .21), 0 1px 3px rgba(0, 0, 0, .08);
+      transform: scale(0.9);
+      background-color: #e2d237;
+      border: #e2d237;
+      color: #e2d237;
+      box-shadow: inset 2px 2px 3px 2px #81a095a6;
+      transition: ease-in-out 0.2s 0.05s;
     }
   }
 
