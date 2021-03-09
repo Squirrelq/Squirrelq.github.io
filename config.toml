@@ -36,7 +36,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Topwise Brewing - Melbourne, Australia"
+  name = "Topwise Brewing"
 
 [taxonomies]
   tag      = "tags"
@@ -90,7 +90,7 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   # footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
-  # footerRight = "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+  footerRight = "Topwise Brewing supports the Responsible Service of Alcohol. Under the Liquor Act 1998 (Vic), it is an offence to supply liquor to a person under the age of 18 years. Liquor licence number: 36163026"
 
   # Colors for favicons
   #
