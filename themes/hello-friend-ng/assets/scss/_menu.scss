@@ -23,6 +23,11 @@
     padding: 0 15px;
     font-size: 1.3rem;
     list-style: none;
+    color: #000;
+    word-spacing: -1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -1px;
 
     @media #{$media-size-phone} {
       flex-direction: column;
