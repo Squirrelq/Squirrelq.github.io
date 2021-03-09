@@ -89,7 +89,7 @@ disableHugoGeneratorInject = false
   # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
   #
-  footerLeft = "(+61)0432622802"
+  #  footerLeft = "(+61)0432622802"
   footerRight = "Topwise Brewing supports the Responsible Service of Alcohol. Under the Liquor Act 1998 (Vic), it is an offence to supply liquor to a person under the age of 18 years. Liquor licence number: 36163026"
 
   # Colors for favicons
