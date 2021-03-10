@@ -1,10 +1,6 @@
 .menu {
   z-index: 9990;
 
-  @media (prefers-color-scheme: dark) {
-    background: $dark-background-header;
-  }
-
   @media #{$media-size-phone} {
     position: absolute;
     top: 50px;
