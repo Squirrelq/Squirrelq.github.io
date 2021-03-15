@@ -11,4 +11,4 @@ Launch @ Carwyn Cellars - 26/03/2021
 
 [Facebook Event Page](https://www.facebook.com/events/348532726453370)
 
-![Launch Poster](/images/LAUNCH PARTYvs.png)
+![Launch Poster](/images/launch.png)
