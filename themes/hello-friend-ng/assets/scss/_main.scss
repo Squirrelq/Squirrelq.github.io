@@ -102,6 +102,7 @@ svg {
 img {
   display: block;
   max-width: 100%;
+  z-index: 9991;
 
   &.left {
     margin-right: auto;
