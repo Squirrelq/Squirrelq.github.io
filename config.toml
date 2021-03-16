@@ -9,7 +9,6 @@ PygmentsStyle = "monokai"
 paginate  = 10
 rssLimit  = 0  # Maximum number of items in the RSS feed.
 
-gtm = "GTM-W3BTHD2"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
@@ -48,6 +47,8 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+  
+  gtm = "GTM-W3BTHD2"
 
   # Metadata mostly used in document's head
   # 
