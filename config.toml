@@ -48,7 +48,7 @@ disableHugoGeneratorInject = false
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
   
-  gtm = "GTM-W3BTHD2"
+  gtm_id = "GTM-W3BTHD2"
 
   # Metadata mostly used in document's head
   # 
