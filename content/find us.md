@@ -11,5 +11,5 @@ aliases = ["stockists","where to buy","find us"]
 
 | Retailer    | Address     |
 | :---        |    :----:   |
-[| [Beer Shop](http://www.topwisebrewing.com.au)      | 123 Test St, Testy, Vic       |](http://www.topwisebrewing.com.au)
+[| Beer Shop     | 123 Test St, Testy, Vic       |](http://www.topwisebrewing.com.au)
 | [Crafty Place](http://www.topwisebrewing.com.au/shop/)    | 12 Alsotest Rd, Testville, Vic        |
