@@ -6,10 +6,11 @@ aliases = ["stockists","where to buy","find us"]
   name = "Topwise Brewing"
 +++
 
-## Awesome retailers in Victoria that are stocking our goods
+## Awesome retailers in Victoria that will be stocking our 1st release from the 26th March (more to come!)
 ### Visit our ***[ONLINE SHOP](https://www.topwisebrewing.com.au/shop/)*** to purchase if you can't get to any of the stores listed below
 
 | Store Name   | Address     |
 | :---        |    :----:   |
-| [Beer Shop](http://www.topwisebrewing.com.au)    | [123 Test St, Testy, Vic](http://www.topwisebrewing.com.au)       |
-| [Crafty Place](http://www.topwisebrewing.com.au/shop/)    | [12 Alsotest Rd, Testville, Vic](http://www.topwisebrewing.com.au/shop/)        |
+| [Carwyn Cellars](https://carwyncellars.com.au/)    | [877 High St, Thornbury VIC](https://carwyncellars.com.au/)       |
+| [Grape and Grain Liquor Cellars](https://grapengrain.com.au/)    | [14/16 Station St, Moorabbin VIC](https://grapengrain.com.au/)        |
+| [Otter's Promise](http://otterspromise.com/)    | [1219 High St, Armadale VIC](http://otterspromise.com/)        |
