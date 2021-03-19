@@ -6,6 +6,10 @@ aliases = ["stockists","where to buy","find us"]
   name = "Topwise Brewing"
 +++
 ---
-### List of awesome retailers that are stocking our goods
+### List of awesome retailers in Victoria that are stocking our goods
+## Visit our [ONLINE SHOP](https://www.topwisebrewing.com.au/shop/) to purchase if you can't get to the stores listed below
 
-Available in good independant, crafty bottleshops and online through our webstore from 26th March!
+| Retailer    | Address     |
+| :---        |    :----:   |
+| [Beer Shop](http://www.topwisebrewing.com.au)      | 123 Test St, Testy, Vic       |
+| [Crafty Place](http://www.topwisebrewing.com.au/shop/)    | 12 Alsotest Rd, Testville, Vic        |
