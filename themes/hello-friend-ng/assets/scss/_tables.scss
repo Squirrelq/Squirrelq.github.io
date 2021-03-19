@@ -18,13 +18,13 @@
 
     thead {
       tr {
-        background-color: $light-table-color;
-        color: #244;
+        background-color: #fafafa33;
+        color: #000;
         text-align: left;
 
         @media (prefers-color-scheme: dark) {
-          background-color: $dark-table-color;
-          color: $dark-color;
+          background-color: #fafafa33;
+          color: #000;
         }
       }
     }
