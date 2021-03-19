@@ -8,19 +8,19 @@
 
     th {
       padding: 10px;
-      border: 1px solid #fff;
+      border: 1px solid #244;
 
       @media (prefers-color-scheme: dark) {
-        border: 1px solid #fff;
+        border: 1px solid #244;
       }
     }
     
     td {
       padding: 0;
-      border: 1px solid #fff;
+      border: 1px solid #244;
 
       @media (prefers-color-scheme: dark) {
-        border: 1px solid #fff;
+        border: 1px solid #244;
       }
     }
 
@@ -39,10 +39,10 @@
 
     tbody {
       tr {
-        border: 1px solid #fff;
+        border: 1px solid #244;
         
         @media (prefers-color-scheme: dark) {
-          border: 1px solid #fff;
+          border: 1px solid #244;
         }
         a {
           display: block;
