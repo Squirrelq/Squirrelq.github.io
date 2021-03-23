@@ -1,6 +1,7 @@
 +++
 title = "A Bit About Us"
 description = "about Topwise"
+type = "about"
 date = "2014-04-09"
 aliases = ["about-us","about"]
 [ author ]
