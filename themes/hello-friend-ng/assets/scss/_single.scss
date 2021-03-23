@@ -4,6 +4,7 @@
   text-align: left;
   padding: 2px;
   margin: 2px auto;
+  line-height: normal;
   @media #{$media-size-tablet} {
     max-width: 600px;
   }
