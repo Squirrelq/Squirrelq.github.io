@@ -8,7 +8,7 @@ aliases = ["whats on","launches"]
 +++
 ---
 ### Launch @ Carwyn Cellars - 26/03/2021
-{{< figure title="Launch Event (links to Facebook event page)" src="/images/launch.png" link="https://www.facebook.com/events/348532726453370" target="_blank" height="40%" width="40%" >}}
+{{< figure src="/images/launch.png" link="https://www.facebook.com/events/348532726453370" target="_blank" height="38%" width="38%" >}}
 
 ---
 <hr>
