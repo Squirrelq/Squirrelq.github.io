@@ -297,7 +297,9 @@ hr {
   width: 100%;
   border: none;
   background: $light-border-color;
-  height: 1px;
+  color: #000;
+  height: 1.2px;
+  outline: #94e8d9 outset 1.2px;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-border-color;
