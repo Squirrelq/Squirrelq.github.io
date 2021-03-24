@@ -5,9 +5,10 @@
     font-size: 1.2em;
     min-width: 400px;
     max-width: 100%;
+    
     @media (max-width: 684px) {
-    max-width: 300px;
-  }
+      max-width: 300px;
+    }
 
     th {
       padding: 10px;
