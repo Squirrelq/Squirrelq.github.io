@@ -13,7 +13,7 @@ a.button {
   justify-content: center;
   padding: 8px 18px;
   margin-bottom: 5px;
-  background: $light-background-secondary;
+  background: #000;
   transition: ease-in-out 0.2s 0.05s;
   text-decoration: none;
   text-align: center;
@@ -24,7 +24,6 @@ a.button {
   appearance: none;
   cursor: pointer;
   outline: none;
-  box-shadow: inset 2px 2px 3px 2px #c9ffeb40;
   
   @media (prefers-color-scheme: dark) {
   background: $dark-background-secondary;
@@ -33,10 +32,8 @@ a.button {
   
   :hover {
       transform: scale(0.97);
-      background-color: #e2d237;
-      border: #e2d237;
+      background-color: #4a90e2;
       color: #000;
-      box-shadow: inset 2px 2px 3px 2px #81a095a6;
       transition: ease-in-out 0.2s 0.05s;
     }
 
@@ -53,10 +50,8 @@ a.button {
 
     :hover {
       transform: scale(0.97);
-      background-color: #e2d237;
-      border: #e2d237;
+      background-color: #4a90e2;
       color: #000;
-      box-shadow: inset 2px 2px 3px 2px #81a095a6;
       transition: ease-in-out 0.2s 0.05s;
     }
   }
@@ -93,10 +88,8 @@ button:hover,
 .button:hover,
 a.button:hover {
   transform: scale(0.97);
-  background-color: #e2d237;
-  border: #e2d237;
+  background-color: #4a90e2;
   color: #000;
-  box-shadow: inset 2px 2px 3px 2px #81a095a6;
   transition: ease-in-out 0.2s 0.05s;
 }
 
