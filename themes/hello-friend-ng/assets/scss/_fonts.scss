@@ -48,3 +48,59 @@
   src: url("../fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
        url("../fonts/Inter-UI-BoldItalic.woff") format("woff");
 }
+@font-face {
+  font-family: 'VarelaRound';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 400;
+  src: local("VarelaRound-Regular") url("Fonts/VarelaRound-Regular.ttf");
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 400;
+  src: local("Comfortaa-Regular") url("Fonts/Comfortaa-Regular.ttf");
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 200;
+  src: local("Comfortaa-Light") url("Fonts/Comfortaa-Light.ttf");
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 600;
+  src: local("Comfortaa-Medium") url("Fonts/Comfortaa-Medium.ttf");
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 700;
+  src: local("Comfortaa-SemiBold") url("Fonts/Comfortaa-SemiBold.ttf");
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 800;
+  src: local("Comfortaa-Bold") url("Fonts/Comfortaa-Bold.ttf");
+}
+@font-face {
+  font-family: 'PTSansCaption';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 700;
+  src: local("PTSansCaption-Bold") url("Fonts/PTSansCaption-Bold.ttf");
+}
+@font-face {
+  font-family: 'PTSansCaption';
+  font-style:  normal;
+  font-display: auto;
+  font-weight: 400;
+  src: local("PTSansCaption-Regular") url("Fonts/PTSansCaption-Regular.ttf");
+}
