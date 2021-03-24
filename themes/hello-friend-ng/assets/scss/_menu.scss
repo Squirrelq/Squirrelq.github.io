@@ -57,19 +57,21 @@
   
       @media #{$media-size-phone} {
     li {
-      margin: 3px 0px 1px 0px;
-      padding: 2px 0px 2px 0px;
+      margin: 1px 0px 1px 0px;
+      padding: 0px 4px 0px 4px;
       border-radius: 3rem 0.5rem 3rem 3rem;
-      mix-blend-mode: color-burn;
-      background-color: #2dc3bc;
+      background-color: #244;
       align-self: normal;
       border-top-style: none;
-      border-right-style: solid;
-      border-bottom-style: solid;
+      border-right-style: none;
+      border-bottom-style: none;
       border-left-style: none;
-      border-right-width: thin;
-      border-bottom-width: thick;
-      border-color: #244;
+      border-right-width: none;
+      border-bottom-width: none;
+      border-color: none;
+      color: white;
+      display: block;
+      font: message-box;
     }
   }
   
