@@ -13,5 +13,5 @@ aliases = ["stockists","where to buy","find us"]
 | :---        |    :----:   |
 | [Carwyn Cellars](https://carwyncellars.com.au/)    | [877 High St, Thornbury VIC](https://carwyncellars.com.au/)       |
 | [Fizz and Hop](https://fizzandhop.com.au/)    | [15 Holmes Rd, Moonee Ponds VIC](https://fizzandhop.com.au/)        |
-| Sessions West Brunswick  | 82-86 Melville Rd, Brunswick West VIC       |
+| [Sessions West Brunswick]  | [82-86 Melville Rd, Brunswick West VIC]       |
 | [The Great Beyond](https://tgbshop.com/)    | [152 Bell St, Coburg VIC](https://tgbshop.com/)        |
