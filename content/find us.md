@@ -6,7 +6,7 @@ aliases = ["stockists","where to buy","find us"]
   name = "Topwise Brewing"
 +++
 
-## Awesome retailers in Victoria that will be stocking our 1st release from the 26th March (more to come very soon!)
+## Awesome retailers in Victoria that are stocking our 1st release (more to come very soon!)
 #### Visit our ***[ONLINE SHOP](https://www.topwisebrewing.com.au/shop/)*** to purchase if you can't get to any of the stores listed below
 
 | Store Name   | Address     |
