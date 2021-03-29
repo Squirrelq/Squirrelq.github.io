@@ -41,10 +41,10 @@
     }
     
     li {
-      margin: 0 1px;
+      margin: 0 2px;
       padding: 0;
-      border-radius: 3rem 1rem 1rem 1rem;
-      background-color: transparent;
+      border-radius: 3rem 1rem 1rem 1.5rem;
+      background-color: #7386a580;
       border-style: outset;
       border-bottom-color: #6cc7b7;
       border-right-color: #6cc7b7;
@@ -52,6 +52,7 @@
       border-left-color: transparent;
       font-variant-caps: unicase;
       font-size: x-large;
+      text-shadow: 1px 1px 2px #fff;
     }
   }
   
@@ -60,7 +61,7 @@
       margin: 1px 0px 1px 0px;
       padding: 0px 4px 0px 4px;
       border-radius: 3rem 0.5rem 3rem 3rem;
-      background-color: #244;
+      background-color: #7386a5;
       align-self: normal;
       border-top-style: none;
       border-right-style: none;
@@ -72,6 +73,7 @@
       color: white;
       display: block;
       font: message-box;
+      text-shadow: 0px 1px 2px #000;
     }
   }
   
