@@ -6,8 +6,10 @@ aliases = ["stockists","where to buy","find us"]
   name = "Topwise Brewing"
 +++
 
+<a href="./shop.htlm" style="color:blue">ONLINE SHOP</a>
 ### Awesome retailers in Victoria that are stocking our 1st release (more to come very soon!)
 #### Visit our <span style="color:blue">[ONLINE SHOP](https://www.topwisebrewing.com.au/shop/)</span> to purchase if you can't get to any of the stores listed below
+<a href="https://www.topwisebrewing.com.au/shop/" style="color:#002bff">ONLINE SHOP</a>
 
 | Store Name   | Address     |
 | :---        |    :----:   |
