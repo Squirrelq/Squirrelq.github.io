@@ -7,7 +7,7 @@ aliases = ["stockists","where to buy","find us"]
 +++
 
 ### Awesome retailers in Victoria that are stocking our 1st release (more to come very soon!)
-#### Visit our ***[ONLINE SHOP](https://www.topwisebrewing.com.au/shop/)*** to purchase if you can't get to any of the stores listed below
+#### Visit our [ONLINE SHOP](https://www.topwisebrewing.com.au/shop/) to purchase if you can't get to any of the stores listed below
 
 | Store Name   | Address     |
 | :---        |    :----:   |
