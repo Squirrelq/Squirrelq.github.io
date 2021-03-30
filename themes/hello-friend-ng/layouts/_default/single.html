@@ -1,3 +1,17 @@
+<style>
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0 3px 3px #000;
+    color: #fff;
+    
+    @media (max-width: 684px)
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+</style>
+
 {{ define "body" }}
     <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
 {{ end }}
