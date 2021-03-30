@@ -47,6 +47,11 @@
 
   &-content {
     margin-top: 15px;
+    
+    &-h2 {
+      text-shadow: 0 4px 4px #000 !important;
+      color: #fff !important;
+    }
   }
 
   &-cover {
