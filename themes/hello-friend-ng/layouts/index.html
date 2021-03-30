@@ -9,12 +9,12 @@
                <img src="{{ .Site.Params.Portrait.Path }}" class="animate__animated animate__bounceInDown animate__slow center" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
 
-            <h1>{{ .Site.Title }}</h1>
+            <h1 class="title-page">{{ .Site.Title }}</h1>
             {{- with .Site.Params.homeSubtitle }}
-                <h2>{{.}}</h2>
+                <h2 class="title-page">{{.}}</h2>
             {{- end }}
 
-            <h5>{{ partial "description.html" . }}</h5>
+            <h5 class="title-page">{{ partial "description.html" . }}</h5>
 
             {{- with .Site.Params.social }}
                 <div>
