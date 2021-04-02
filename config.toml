@@ -96,9 +96,9 @@ disableHugoGeneratorInject = false
   # Colors for favicons
   #
   [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
+    mask = "#fff"
+    msapplication = "#fff"
+    theme = "#fff"
 
   [params.logo]
     path         = "/logo1.webp"
