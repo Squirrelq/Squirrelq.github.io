@@ -24,6 +24,7 @@ a.button {
   appearance: none;
   cursor: pointer;
   outline: none;
+  color: #fff;
   
   @media (prefers-color-scheme: dark) {
   background: $dark-background-secondary;
