@@ -26,6 +26,7 @@ aliases = ["stockists","where to buy","find us"]
 | [Penny Young](http://pennyyoung.com.au/)    | [22 Young St, Moonee Ponds VIC](http://pennyyoung.com.au/)        |
 | [Purvis Beer](https://www.purvisbeer.com.au/)    | [292 Bridge Rd, Richmond VIC](https://www.purvisbeer.com.au/)       |
 | [Purvis Cellars](https://www.purviscellars.com.au/)    | [615-617 Whitehorse Rd, Surrey Hills VIC](https://www.purviscellars.com.au/)       |
+| [Regent Cellars](https://www.facebook.com/RegentCellars)    | [643 Gilbert Rd, Reservoir VIC](https://www.facebook.com/RegentCellars)       |
 | [Sessions West Brunswick](https://www.instagram.com/sessions_westbrunswick/)  | [82-86 Melville Rd, Brunswick West VIC](https://www.instagram.com/sessions_westbrunswick/)       |
 | [The Great Beyond](https://tgbshop.com/)    | [152 Bell St, Coburg VIC](https://tgbshop.com/)        |
 | [The Vin Wine & Spirits](https://www.facebook.com/thevinwineandspirits)    | [180 Victoria St, Seddon VIC](https://www.facebook.com/thevinwineandspirits)        |
