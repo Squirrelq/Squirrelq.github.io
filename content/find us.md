@@ -35,6 +35,5 @@ aliases = ["stockists","where to buy","find us"]
 | [Slowbeer](https://slowbeer.com.au/)    | [351 Smith St, Fitzroy VIC](https://slowbeer.com.au/)        |
 | [The Great Beyond](https://tgbshop.com/)    | [152 Bell St, Coburg VIC](https://tgbshop.com/)        |
 | [The Vin Wine & Spirits](https://www.facebook.com/thevinwineandspirits)    | [180 Victoria St, Seddon VIC](https://www.facebook.com/thevinwineandspirits)        |
-| [Tiny's Bar & Bottle Shop](https://tinysbarandbottleshop.com.au/)    | [1/1333 Ferntree Gully Rd, Scoresby VIC](https://tinysbarandbottleshop.com.au/)        |
 | [Wines On Poath](https://www.winesonpoath.com.au/)    | [76 Poath Rd, Hughesdale VIC](https://www.winesonpoath.com.au/)        |
 | [Yarra Cultures](https://yarracultures.com.au/)    | [Online and Free Local Delivery for Yarra Valley](https://yarracultures.com.au/)        |
