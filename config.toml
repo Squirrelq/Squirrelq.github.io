@@ -174,7 +174,7 @@ disableHugoGeneratorInject = false
     url        = "contact/"
     weight     = 5
  [[menu.main]]
-    identifier = "events"
-    name       = "Events"
-    url        = "events/"
+    identifier = "photos"
+    name       = "Photos"
+    url        = "photos/"
     weight     = 3
