@@ -1,0 +1,29 @@
+  
+<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+        {{ range .Site.Data.instagram | shuffle | first 1 }}
+        <div class="carousel-item active">
+            <a href="{{ .permalink }}">
+            <img class="d-block img-fluid" alt="{{ .caption }}"
+            src="{{ .media_url }}"
+            />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{{ .caption }}</h5>
+            </div>
+        </div>
+        {{ end }}
+        {{ range .Site.Data.instagram | shuffle }}
+        <div class="carousel-item">
+            <a href="{{ .permalink }}">
+            <img class="d-block img-fluid" alt="{{ .caption }}"
+            data-lazy-load-src="{{ .media_url }}"
+            />
+            </a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{{ .caption }}</h5>
+            </div>
+        </div>
+        {{ end }}
+   </div>
+</div>
