@@ -2,7 +2,8 @@
 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       {{ if isset .Params "shuffle" }}
-        {{ with .Site.Data.instagram | shuffle | first 1 }}
+        {{ range .Site.Data.instagram | shuffle | first 1 }}
+        {{ end }}
         <div class="carousel-item active">
             <a href="{{ .permalink }}">
             <img class="d-block img-fluid" alt="{{ .caption }}"
@@ -13,8 +14,10 @@
                 <h5>{{ .caption }}</h5>
             </div>
         </div>
-        {{ end }}
+        {{ end }}  
+      {{ if isset .Params "shuffle" }}
         {{ range .Site.Data.instagram | shuffle }}
+        {{ end }}
         <div class="carousel-item">
             <a href="{{ .permalink }}">
             <img class="d-block img-fluid" alt="{{ .caption }}"
