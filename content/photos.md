@@ -1,6 +1,6 @@
 +++
 title = "Photos"
-type = "events"
+type = "photos"
 description = "Insta Pics"
 date = "2014-04-09"
 aliases = ["images","promo"]
