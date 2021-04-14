@@ -1,1 +1,20 @@
+{{ define "body" }}
+    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
 
+{{ define "main" }}
+    <main class="post">
+
+        <article>
+            <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+                                                             
+            <div class="post-content">
+                {{ .Content }}
+            </div>
+        </article>
+                                     
+       <div>
+          {{ partial "tags.html" . }}
+  		</div>
+    </main>
+{{ end }}
