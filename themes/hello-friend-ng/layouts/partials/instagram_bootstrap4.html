@@ -1,10 +1,8 @@
   
 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
-        {{ with .Site.Data.instagram | shuffle }}
-    {{ range first 1 . }}
-        ...
-    {{ end }}
+      {{ if isset .Params "shuffle" }}
+        {{ with .Site.Data.instagram | shuffle | first 1 }}
         <div class="carousel-item active">
             <a href="{{ .permalink }}">
             <img class="d-block img-fluid" alt="{{ .caption }}"
