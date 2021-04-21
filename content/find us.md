@@ -35,6 +35,7 @@ aliases = ["stockists","where to buy","find us"]
 | [Penny Young](http://pennyyoung.com.au/)    | [22 Young St, Moonee Ponds VIC](http://pennyyoung.com.au/)        |
 | [Purvis Beer](https://www.purvisbeer.com.au/)    | [292 Bridge Rd, Richmond VIC](https://www.purvisbeer.com.au/)       |
 | [Purvis Cellars](https://www.purviscellars.com.au/)    | [615-617 Whitehorse Rd, Surrey Hills VIC](https://www.purviscellars.com.au/)       |
+| [Redwood Tasting Room](http://redwooddistribution.com/tasting-room)    | [345 St Georges Rd, Fitzroy North VIC](http://redwooddistribution.com/tasting-room)       |
 | [Regent Cellars](https://www.facebook.com/RegentCellars)    | [643 Gilbert Rd, Reservoir VIC](https://www.facebook.com/RegentCellars)       |
 | [Sessions West Brunswick](https://www.instagram.com/sessions_westbrunswick/)  | [82-86 Melville Rd, Brunswick West VIC](https://www.instagram.com/sessions_westbrunswick/)       |
 | [Slowbeer](https://slowbeer.com.au/)    | [351 Smith St, Fitzroy VIC](https://slowbeer.com.au/)        |
