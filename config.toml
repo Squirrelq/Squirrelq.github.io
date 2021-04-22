@@ -133,7 +133,7 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "email"
-    url  = "mailto:topwisebrewing@gmail.com"
+    url  = "mailto:info@topwisebrewing.com.au"
 
   [[params.social]]
     name = "facebook"
