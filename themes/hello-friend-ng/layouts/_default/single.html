@@ -2,6 +2,10 @@
     <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
 {{ end }}
 
+       <div>
+          {{ partial "mapbox.html" . }}
+  		</div>
+
 {{ define "main" }}
     <main class="post">
 
