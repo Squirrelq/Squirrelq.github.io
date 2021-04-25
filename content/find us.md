@@ -6,8 +6,8 @@ aliases = ["stockists","where to buy","find us"]
   name = "Topwise Brewing"
 +++
 
-### Find our beer at one of our many awesome, indie retail partners across Vic!
-#### or Visit our [SHOP]({{< ref "/shop" >}} "shop") to buy if you can't get to one... almost all gone, so hurry!
+### To get some juice, visit one of our awesome, indie retail partners across Vic!
+#### or Visit our [SHOP]({{< ref "/shop" >}} "shop") if you can't get to one... almost all gone, so hurry!
 
 | Store Name   | Address     |
 | :---        |    :----:   |
