@@ -1,7 +1,6 @@
 +++
 title = "Find Our Beer"
 date = "2014-04-09"
-type = "find"
 aliases = ["stockists","where to buy","find us"]
 [ author ]
   name = "Topwise Brewing"
