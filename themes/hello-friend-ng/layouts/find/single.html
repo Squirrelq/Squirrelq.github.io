@@ -78,8 +78,733 @@
 
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/topwisebrewing/cknw3w63z155w17qnmp8meewn'
+    style: 'mapbox://styles/mapbox/light-v10',
+    center: [-37.382, 145.219],
+    zoom: 10.1
   });
+  
+  var stores = {
+  "type": "FeatureCollection",
+   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miss Moses",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7635258,144.962442&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.missmoses.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.962442,
+          -37.763525
+        ],
+        "type": "Point"
+      },
+      "id": "02dee8db4e30448a0f931c21719cb64c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cellarbrations at Tottenham",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7999838,144.8631091&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.facebook.com/CBNTOTTENHAM/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.863109,
+          -37.799983
+        ],
+        "type": "Point"
+      },
+      "id": "043430b0c27496f6bccdfbd2da692bb9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hopheads",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.8680074,144.8309085&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://hopheads.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.830908,
+          -37.868007
+        ],
+        "type": "Point"
+      },
+      "id": "0a7d089d8155be84f2639a3ef6a5235a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otter’s Promise",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.8562875,145.028313&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.otterspromise.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.028313,
+          -37.856287
+        ],
+        "type": "Point"
+      },
+      "id": "0fb49d7e7936c79d9d0a2cd4a8572567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acland Cellars",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.86959969999999,144.980341&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://beerstore.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.980341,
+          -37.869599
+        ],
+        "type": "Point"
+      },
+      "id": "14f78c322d948f87bbdfa06035d2cd53"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Hop Supply Co.",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-36.7562444,144.2828542&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://hopsupplyco.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.282854,
+          -36.756244
+        ],
+        "type": "Point"
+      },
+      "id": "1beb4e357dcd5362434a3852e3416f51"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Local Cellars",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7888117,144.9973683&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.localcellars.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.997368,
+          -37.788811
+        ],
+        "type": "Point"
+      },
+      "id": "1db79a031135ed1a197d2d2e1a30b937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harvest Wine &amp; Liquor",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7741057,144.9978336&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.facebook.com/harvestwine.liquor"
+      },
+      "geometry": {
+        "coordinates": [
+          144.997833,
+          -37.774105
+        ],
+        "type": "Point"
+      },
+      "id": "247a24143a0b2a7086ea72d092a66111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ascot Vale Cellars",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7750412,144.9157975&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.ascotvalecellars.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.915797,
+          -37.775041
+        ],
+        "type": "Point"
+      },
+      "id": "307ccd8fc13058c3655758bec9b7a5e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olinda Cellars",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.85611360000001,145.365708&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.olindacellars.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.365708,
+          -37.856113
+        ],
+        "type": "Point"
+      },
+      "id": "30a46075e9697f379f596f145bfbb96c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yarra Cultures",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7550316,145.5215238&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://yarracultures.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.521523,
+          -37.755031
+        ],
+        "type": "Point"
+      },
+      "id": "35ad018d77dc3d423304f2960697bfa5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blackhearts &amp; Sparrows",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.798866,144.982041&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.blackheartsandsparrows.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.982041,
+          -37.798866
+        ],
+        "type": "Point"
+      },
+      "id": "4d08a479079b7aa7a7db3b3e368f9fbd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carwyn Cellars",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7540032,145.0011862&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://carwyncellars.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.001186,
+          -37.754003
+        ],
+        "type": "Point"
+      },
+      "id": "4d258868f40a3515dd5d6abfb6344cb2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Craft and Vine",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.717084,145.120812&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.craftandvine.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.120812,
+          -37.717084
+        ],
+        "type": "Point"
+      },
+      "id": "5405e61d1a2717c859c95a29416a1174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Redwood Tasting Room",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.779692,144.986653&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "http://redwooddistribution.com/tasting-room"
+      },
+      "geometry": {
+        "coordinates": [
+          144.986653,
+          -37.779692
+        ],
+        "type": "Point"
+      },
+      "id": "57673328310deb837df996a49b1df94a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Bottle Store",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7312826,144.9386994&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.districtbottle.store/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.938699,
+          -37.731282
+        ],
+        "type": "Point"
+      },
+      "id": "603fc7a7ad3f9ffe3f56076316aad72b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sessions West Brunswick",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.762003,144.944474&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.instagram.com/sessions_westbrunswick/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.944474,
+          -37.762003
+        ],
+        "type": "Point"
+      },
+      "id": "6191c66a5c57d31fc9d67b5b4f531065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harvest Cellars",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.930196,145.359735&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "http://www.harvestcellars.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.359735,
+          -37.930196
+        ],
+        "type": "Point"
+      },
+      "id": "70e8ceb1772c97f3c8f86e4840d45212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Let’s Unwine Berwick",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-38.031036,145.347166&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.letsunwineberwick.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.347166,
+          -38.031036
+        ],
+        "type": "Point"
+      },
+      "id": "7498cc327847a432004a45ff7b014000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Purvis Beer",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.818938,145.000893&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.purvisbeer.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.000893,
+          -37.818938
+        ],
+        "type": "Point"
+      },
+      "id": "75680495b54e4f327cb368e95968dbcb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Village Vineyard - Fine Booze",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.788076,144.9912071&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "http://www.villagevineyard.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.991207,
+          -37.788076
+        ],
+        "type": "Point"
+      },
+      "id": "7a19fd43fd1d2b046ec048bdedc167c0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beer 360",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.8197761,145.0070354&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.beer360.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.007035,
+          -37.819776
+        ],
+        "type": "Point"
+      },
+      "id": "86386bfee81647219ec1ec09686ecbbb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malvern Road Wine &amp; Beer House",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.869942,145.061338&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.malvernroadwineandbeerhouse.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.061338,
+          -37.869942
+        ],
+        "type": "Point"
+      },
+      "id": "91d19b6cffd685a9f0d7a500a3eb6ee2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cellarbrations at Elsternwick Fine Wines",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.8847696,145.0026277&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.cellarbrations.com.au/bottle-shops/vic/finest-drop-elsternwick"
+      },
+      "geometry": {
+        "coordinates": [
+          145.002627,
+          -37.884769
+        ],
+        "type": "Point"
+      },
+      "id": "a182916b3288573bda096780dfcb235f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Great Beyond",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7407597,144.9628937&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://tgbshop.com/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.962893,
+          -37.740759
+        ],
+        "type": "Point"
+      },
+      "id": "a3a2d6b79adc05e71a17daeb00124ccb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hippo Bottle &amp; Bar",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.8004887,144.9841817&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.facebook.com/hippobnb/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.984181,
+          -37.800488
+        ],
+        "type": "Point"
+      },
+      "id": "a48db9a5453c3231185762a12f4c6df4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Regent Cellars",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7274628,144.9915837&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.facebook.com/RegentCellars"
+      },
+      "geometry": {
+        "coordinates": [
+          144.991583,
+          -37.727462
+        ],
+        "type": "Point"
+      },
+      "id": "a4dd11ba993c5dafcd8ef03ed7f85982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Point of Difference Liquor",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.8161545,145.1927221&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://apodliquor.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.192722,
+          -37.816154
+        ],
+        "type": "Point"
+      },
+      "id": "a6782aad3ff251cb2ff64d654de72360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Slowbeer",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.798475,144.984156&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://slowbeer.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.984156,
+          -37.798475
+        ],
+        "type": "Point"
+      },
+      "id": "ac6acc6103788b7df691561ae40276ef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fizz and Hop",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.7666961,144.9188339&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://fizzandhop.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.918833,
+          -37.766696
+        ],
+        "type": "Point"
+      },
+      "id": "bf9a03d2f9c7e5fce8ab1de1fb7a9b6a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Purvis Cellars",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.81483,145.0992026&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.purviscellars.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.099202,
+          -37.81483
+        ],
+        "type": "Point"
+      },
+      "id": "c4dbca6b37cd1ba87bfac44df3c78fdd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beermash",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.8001051,144.9842631&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://beermash.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.984263,
+          -37.800105
+        ],
+        "type": "Point"
+      },
+      "id": "c763c62e855168e627eda012d73b3889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wines On Poath",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.893717,145.077129&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.winesonpoath.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.077129,
+          -37.893717
+        ],
+        "type": "Point"
+      },
+      "id": "c80bf4eee3ea8feb6c5defca4536e972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penny Young",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.76770930000001,144.9231397&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "http://pennyyoung.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.923139,
+          -37.767709
+        ],
+        "type": "Point"
+      },
+      "id": "cc594de15ec86dc25e7b6c6472d553df"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hops and Vine",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.747157,145.210427&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.hopsandvineoz.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          145.210427,
+          -37.747157
+        ],
+        "type": "Point"
+      },
+      "id": "cee81670b6daee02c5bb116982322df0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mr West Bar &amp; Bottle Shop",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.800487,144.899239&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://mrwest.com.au/"
+      },
+      "geometry": {
+        "coordinates": [
+          144.899239,
+          -37.800487
+        ],
+        "type": "Point"
+      },
+      "id": "e0d7739f2f298963e13f46a910aaf07f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Vin Wine &amp; Spirits",
+        "styleUrl": "#f18f532467",
+        "styleHash": "531482ab",
+        "description": "<br /><div style=\"text-align:center;\"><a target=\"_blank\" style=\"color:#0000FF;text-decoration:underline;\" href=\"https://www.google.com/maps?daddr=-37.8061643,144.8916501&amp;hl=en\">Get Directions</a></div><br />",
+        "link": "https://www.facebook.com/thevinwineandspirits"
+      },
+      "geometry": {
+        "coordinates": [
+          144.89165,
+          -37.806164
+        ],
+        "type": "Point"
+      },
+      "id": "e1251a9398f1c4c7bd1a96efa2252387"
+    }
+  ],
+  "type": "FeatureCollection"
+}
+  
+  map.on('load', function (e) {
+  /* Add the data to your map as a layer */
+  map.addLayer({
+    "id": "locations",
+    "type": "circle",
+    /* Add a GeoJSON source containing place coordinates and information. */
+    "source": {
+      "type": "geojson",
+      "data": stores
+    }
+  });
+});
+  
+  function buildLocationList(data) {
+  data.features.forEach(function(store, i){
+    /**
+     * Create a shortcut for `store.properties`,
+     * which will be used several times below.
+    **/
+    var prop = store.properties;
+
+    /* Add a new listing section to the sidebar. */
+    var listings = document.getElementById('listings');
+    var listing = listings.appendChild(document.createElement('div'));
+    /* Assign a unique `id` to the listing. */
+    listing.id = "listing-" + data.features[i].properties.id;
+    /* Assign the `item` class to each listing for styling. */
+    listing.className = 'item';
+
+    /* Add the link to the individual listing created above. */
+    var link = listing.appendChild(document.createElement('a'));
+    link.href = '#';
+    link.className = 'title';
+    link.id = "link-" + prop.id;
+    link.innerHTML = prop.address;
+
+    /* Add details to the individual listing. */
+    var details = listing.appendChild(document.createElement('div'));
+    details.innerHTML = prop.city;
+    if (prop.phone) {
+      details.innerHTML += ' · ' + prop.phoneFormatted;
+    }
+    if (prop.distance) {
+      var roundedDistance = Math.round(prop.distance * 100) / 100;
+      details.innerHTML +=
+        '<p><strong>' + roundedDistance + ' miles away</strong></p>';
+    }
+  });
+}
 </script>
   
   </body>
