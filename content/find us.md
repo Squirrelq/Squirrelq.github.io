@@ -1,13 +1,13 @@
 +++
-title = "Find Our Beer"
+title = ""
 date = "2014-04-09"
 aliases = ["stockists","where to buy","find us"]
 [ author ]
   name = "Topwise Brewing"
 +++
 
-### Awesome retailers in Victoria that are stocking our 1st release (more to come very soon!)
-#### Visit our [SHOP]({{< ref "/shop" >}} "shop") to purchase if you can't get to any of our retail partners listed below
+### Find our beer at one of our many awesome, indie retail partners across Vic!
+#### or Visit our [SHOP]({{< ref "/shop" >}} "shop") to buy if you can't get to one... almost all gone, so hurry!
 
 | Store Name   | Address     |
 | :---        |    :----:   |
