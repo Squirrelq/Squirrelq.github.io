@@ -8,6 +8,793 @@
   <div id='listings' class='listings'></div>
 </div>
 <div id="map" class="map"></div>
+ <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoidG9wd2lzZWJyZXdpbmciLCJhIjoiY2tudnhvdjJuMDQ4azJwdGc3YnY4cjl5eCJ9.elOlFar5zj_mn_krxc_LXA';
+
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v10',
+    center: [-77.034084, 38.909671],
+    zoom: 13,
+  });
+  
+  var stores = {
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Point of Difference Liquor",
+        "address": "499 Whitehorse Rd",
+        "city": "Mitcham ",
+        "country": "australia",
+        "website": "https://apodliquor.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1927221,
+          -37.8161545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acland Cellars",
+        "address": "187 Acland St",
+        "city": "St Kilda ",
+        "country": "australia",
+        "website": "https://beerstore.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.980341,
+          -37.8695997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ascot Vale Cellars",
+        "address": "154 Union Rd",
+        "city": "Ascot Vale ",
+        "country": "australia",
+        "website": "https://www.ascotvalecellars.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9157975,
+          -37.7750412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beer 360",
+        "address": "468 Bridge Rd",
+        "city": "Richmond ",
+        "country": "australia",
+        "website": "https://www.beer360.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0070354,
+          -37.8197761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beermash",
+        "address": "306 Smith St",
+        "city": "Collingwood ",
+        "country": "australia",
+        "website": "https://beermash.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9842631,
+          -37.8001051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blackhearts &amp; Sparrows",
+        "address": "Sydney Rd",
+        "city": "Brunswick ",
+        "country": "australia",
+        "website": "https://www.blackheartsandsparrows.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962288,
+          -37.7660858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blackhearts &amp; Sparrows",
+        "address": "Lygon St",
+        "city": "East Brunswick ",
+        "country": "australia",
+        "website": "https://www.blackheartsandsparrows.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9717176,
+          -37.7714062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blackhearts &amp; Sparrows",
+        "address": "Smith St",
+        "city": "Fitzroy ",
+        "country": "australia",
+        "website": "https://www.blackheartsandsparrows.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.983996,
+          -37.8007025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blackhearts &amp; Sparrows",
+        "address": "Johnston St",
+        "city": "Abbotsford ",
+        "country": "australia",
+        "website": "https://www.blackheartsandsparrows.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9949482,
+          -37.8000365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carwyn Cellars",
+        "address": "877 High St",
+        "city": "Thornbury ",
+        "country": "australia",
+        "website": "https://carwyncellars.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0011862,
+          -37.7540032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cellarbrations at Elsternwick Fine Wines",
+        "address": "326 Glen Huntly Rd",
+        "city": "Elsternwick ",
+        "country": "australia",
+        "website": "https://www.cellarbrations.com.au/bottle-shops/vic/finest-drop-elsternwick"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0026277,
+          -37.8847696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cellarbrations at Tottenham",
+        "address": "159/161 Sunshine Rd",
+        "city": "West Footscray ",
+        "country": "australia",
+        "website": "https://www.facebook.com/CBNTOTTENHAM/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8631091,
+          -37.7999838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Craft and Vine",
+        "address": "13A Were St",
+        "city": "Montmorency ",
+        "country": "australia",
+        "website": "https://www.craftandvine.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.120812,
+          -37.717084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "District Bottle Store",
+        "address": "88 Cumberland Rd",
+        "city": "Pascoe Vale ",
+        "country": "australia",
+        "website": "https://www.districtbottle.store/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9386994,
+          -37.7312826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fizz and Hop",
+        "address": "15 Holmes Rd",
+        "city": "Moonee Ponds ",
+        "country": "australia",
+        "website": "https://fizzandhop.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9188339,
+          -37.7666961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harvest Cellars",
+        "address": "168 Colby Dr",
+        "city": "Belgrave South ",
+        "country": "australia",
+        "website": "http://www.harvestcellars.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.359735,
+          -37.930196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harvest Wine &amp; Liquor",
+        "address": "207 High St",
+        "city": "Northcote ",
+        "country": "australia",
+        "website": "https://www.facebook.com/harvestwine.liquor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9978336,
+          -37.7741057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hippo Bottle &amp; Bar",
+        "address": "290 Smith St",
+        "city": "Collingwood ",
+        "country": "australia",
+        "website": "https://www.facebook.com/hippobnb/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9841817,
+          -37.8004887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hopheads",
+        "address": "78 Pier St",
+        "city": "Altona ",
+        "country": "australia",
+        "website": "https://hopheads.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8309085,
+          -37.8680074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hopheads",
+        "address": "2/13 Adelphi Blvd",
+        "city": "Point Cook ",
+        "country": "australia",
+        "website": "https://hopheads.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7399683,
+          -37.8991108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hopheads",
+        "address": "53 Anderson St",
+        "city": "Yarraville ",
+        "country": "australia",
+        "website": "https://hopheads.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8900545,
+          -37.8167245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hops and Vine",
+        "address": "3 & 4/242 Yarra St",
+        "city": "Warrandyte ",
+        "country": "australia",
+        "website": "https://www.hopsandvineoz.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.210427,
+          -37.747157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Let’s Unwine Berwick",
+        "address": "65 High St",
+        "city": "Berwick ",
+        "country": "australia",
+        "website": "https://www.letsunwineberwick.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.347166,
+          -38.031036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Local Cellars",
+        "address": "41 Spensley St",
+        "city": "Clifton Hill ",
+        "country": "australia",
+        "website": "https://www.localcellars.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9973683,
+          -37.7888117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malvern Road Wine &amp; Beer House",
+        "address": "1947 Malvern Rd",
+        "city": "Malvern East ",
+        "country": "australia",
+        "website": "https://www.malvernroadwineandbeerhouse.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.061338,
+          -37.869942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miss Moses",
+        "address": "581 Sydney Rd",
+        "city": "Brunswick ",
+        "country": "australia",
+        "website": "https://www.missmoses.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.962442,
+          -37.7635258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mr West Bar &amp; Bottle Shop",
+        "address": "106 Nicholson St",
+        "city": "Footscray ",
+        "country": "australia",
+        "website": "https://mrwest.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.899239,
+          -37.800487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olinda Cellars",
+        "address": "7/540 Mount Dandenong Tourist Rd",
+        "city": "Olinda ",
+        "country": "australia",
+        "website": "https://www.olindacellars.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.365708,
+          -37.8561136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otter’s Promise",
+        "address": "1219 High St",
+        "city": "Armadale ",
+        "country": "australia",
+        "website": "https://www.otterspromise.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.028313,
+          -37.8562875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penny Young",
+        "address": "22 Young St",
+        "city": "Moonee Ponds ",
+        "country": "australia",
+        "website": "http://pennyyoung.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9231397,
+          -37.7677093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Purvis Beer",
+        "address": "292 Bridge Rd",
+        "city": "Richmond ",
+        "country": "australia",
+        "website": "https://www.purvisbeer.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.000893,
+          -37.818938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Purvis Cellars",
+        "address": "615-617 Whitehorse Rd",
+        "city": "Surrey Hills ",
+        "country": "australia",
+        "website": "https://www.purviscellars.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0992026,
+          -37.81483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Redwood Tasting Room",
+        "address": "345 St Georges Rd",
+        "city": "Fitzroy North ",
+        "country": "australia",
+        "website": "http://redwooddistribution.com/tasting-room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.986653,
+          -37.779692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Regent Cellars",
+        "address": "643 Gilbert Rd",
+        "city": "Reservoir ",
+        "country": "australia",
+        "website": "https://www.facebook.com/RegentCellars"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9915837,
+          -37.7274628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sessions West Brunswick",
+        "address": "82-86 Melville Rd",
+        "city": "Brunswick West ",
+        "country": "australia",
+        "website": "https://www.instagram.com/sessions_westbrunswick/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.944474,
+          -37.762003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Slowbeer",
+        "address": "351 Smith St",
+        "city": "Fitzroy ",
+        "country": "australia",
+        "website": "https://slowbeer.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.984156,
+          -37.798475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Great Beyond",
+        "address": "152 Bell St",
+        "city": "Coburg ",
+        "country": "australia",
+        "website": "https://tgbshop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9628937,
+          -37.7407597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Hop Supply Co.",
+        "address": "137 McCrae St",
+        "city": "Bendigo ",
+        "country": "australia",
+        "website": "https://hopsupplyco.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2828542,
+          -36.7562444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Vin Wine &amp; Spirits",
+        "address": "180 Victoria St",
+        "city": "Seddon ",
+        "country": "australia",
+        "website": "https://www.facebook.com/thevinwineandspirits"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8916501,
+          -37.8061643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Village Vineyard - Fine Booze",
+        "address": "348 Queens Parade",
+        "city": "Fitzroy North ",
+        "country": "australia",
+        "website": "http://www.villagevineyard.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9912071,
+          -37.788076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wines On Poath",
+        "address": "76 Poath Rd",
+        "city": "Hughesdale ",
+        "country": "australia",
+        "website": "https://www.winesonpoath.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.077129,
+          -37.893717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yarra Cultures",
+        "address": "Online Shop",
+        "city": "Lilydale",
+        "country": "australia",
+        "website": "https://yarracultures.com.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.35,
+          -37.758
+        ]
+      }
+    }
+  ]
+}
+  
+  /* Assign a unique ID to each store */
+stores.features.forEach(function(store, i){
+  store.properties.id = i;
+});
+  
+  map.on('load', function (e) {
+  /* Add the data to your map as a layer */
+  map.addLayer({
+    "id": "locations",
+    "type": "circle",
+    /* Add a GeoJSON source containing place coordinates and information. */
+    "source": {
+      "type": "geojson",
+      "data": stores
+    }
+  });
+   buildLocationList(stores);
+});
+  
+  function buildLocationList(data) {
+  data.features.forEach(function(store, i){
+    /**
+     * Create a shortcut for `store.properties`,
+     * which will be used several times below.
+    **/
+    var prop = store.properties;
+
+    /* Add a new listing section to the sidebar. */
+    var listings = document.getElementById('listings');
+    var listing = listings.appendChild(document.createElement('div'));
+    /* Assign a unique `id` to the listing. */
+    listing.id = "listing-" + data.features[i].properties.id;
+    /* Assign the `item` class to each listing for styling. */
+    listing.className = 'item';
+
+    /* Add the link to the individual listing created above. */
+    var link = listing.appendChild(document.createElement('a'));
+    link.href = prop.website;
+    link.className = 'title';
+    link.id = "link-" + prop.id;
+    link.innerHTML = prop.name;
+
+    /* Add details to the individual listing. */
+    var details = listing.appendChild(document.createElement('div'));
+    details.innerHTML = prop.city;
+    if (prop.phone) {
+      details.innerHTML += ' · ' + prop.phoneFormatted;
+    }
+    if (prop.distance) {
+      var roundedDistance = Math.round(prop.distance * 100) / 100;
+      details.innerHTML +=
+        '<p><strong>' + roundedDistance + ' miles away</strong></p>';
+    }
+  });
+}
+</script>
 
 </main>
 {{ end }}
