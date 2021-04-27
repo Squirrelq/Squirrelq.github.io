@@ -10,7 +10,6 @@
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/topwisebrewing/cknw3w63z155w17qnmp8meewn',
-    zoom: 12,
   });
   
   map.on('click', function(e) {
@@ -23,7 +22,7 @@
 
   var feature = features[0];
 
-  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+  var popup = new mapboxgl.Popup({ offset: [0, -15],closeButton:false,closeOnMove:true })
     .setLngLat(feature.geometry.coordinates)
     .setHTML('<h3><a target="_blank" href="' + feature.properties.website + '">' + feature.properties.name + '</a></h3>')
     .addTo(map);
