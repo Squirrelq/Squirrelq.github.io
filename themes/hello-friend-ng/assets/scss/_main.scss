@@ -43,8 +43,7 @@ body {
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   align-items: center;
   line-height: 1.3;
   font-weight: normal;
@@ -83,6 +82,14 @@ h4 {
 h5 {
   font-weight: 700;
   text-shadow: 0px 2px 3px #000;
+}
+
+h6 {
+  font-weight: 800;
+  align-items: center;
+  line-height: 1;
+  font-weight: normal;
+  color: #001fff;
 }
 
 @media #{$media-size-phone} {
