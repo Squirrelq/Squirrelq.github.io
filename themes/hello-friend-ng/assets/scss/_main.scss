@@ -87,11 +87,11 @@ h5 {
 h6 {
   font-size: 10pt;
   align-items: center;
-  line-height: 1;
+  line-height: 1.1;
   font-weight: bold;
   color: #0e6d6d;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 0.6em;
+  margin-block-end: 0.6em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
@@ -405,4 +405,8 @@ hr {
   border-radius: 20px;
   padding: 1px 10px 1px;
   pointer-events: auto;
+}
+
+.pop-up {
+  max-width: 150px;
 }
