@@ -24,7 +24,7 @@
 
   var popup = new mapboxgl.Popup({ offset: [0, -15],closeButton:false,closeOnMove:true,className:'pop-up' })
     .setLngLat(feature.geometry.coordinates)
-    .setHTML('<h4><a target="_blank" href="' + feature.properties.website + '">' + feature.properties.name + '</a></h4>')
+    .setHTML('<h6><a target="_blank" href="' + feature.properties.website + '">' + feature.properties.name + '</a></h6>')
     .addTo(map);
 });
 </script>
