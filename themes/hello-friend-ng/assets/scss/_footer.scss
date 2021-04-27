@@ -26,8 +26,8 @@
     color: #244;
 
     @media #{$media-size-tablet} {
-      flex-direction: column;
-      margin-top: 10px;
+      flex-direction: row-reverse;
+      margin-top: 5px;
     }
 
     & > *:not(:last-child)::after {
