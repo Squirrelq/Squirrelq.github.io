@@ -17,6 +17,7 @@ aliases = ["stockists","where to buy","find us"]
 | [Beer 360](https://www.beer360.com.au/)    | [468 Bridge Rd, Richmond VIC](https://www.beer360.com.au/)        |
 | [Beermash](https://beermash.com.au/)    | [306 Smith St, Collingwood VIC](https://beermash.com.au/)        |
 | [Blackhearts & Sparrows](https://www.blackheartsandsparrows.com.au/)    | [Sydney Rd, Brunswick - Lygon St, East Brunswick - Smith St, Fitzroy - Johnston St, Abbotsford](https://www.blackheartsandsparrows.com.au/)        |
+| [Bo Gurks](https://www.bogurks.com.au/)    | [244 Nepean Hwy, Edithvale VIC](https://www.bogurks.com.au/)       |
 | [Carwyn Cellars](https://carwyncellars.com.au/)    | [877 High St, Thornbury VIC](https://carwyncellars.com.au/)       |
 | [Cellarbrations at Elsternwick Fine Wines](https://www.cellarbrations.com.au/bottle-shops/vic/finest-drop-elsternwick)    | [326 Glen Huntly Rd, Elsternwick VIC](https://www.cellarbrations.com.au/bottle-shops/vic/finest-drop-elsternwick)       |
 | [Cellarbrations at Tottenham](https://www.facebook.com/CBNTOTTENHAM/)    | [159/161 Sunshine Rd, West Footscray VIC](https://www.facebook.com/CBNTOTTENHAM/)        |
@@ -28,6 +29,7 @@ aliases = ["stockists","where to buy","find us"]
 | [Hippo Bottle & Bar](https://www.facebook.com/hippobnb/)    | [290 Smith St, Collingwood VIC](https://www.facebook.com/hippobnb/)        |
 | [Hopheads](https://hopheads.com.au/)    | [78 Pier St, Altona - 2/13 Adelphi Blvd, Point Cook - 53 Anderson St, Yarraville](https://hopheads.com.au/)       |
 | [Hops and Vine](https://www.hopsandvineoz.com.au/)    | [3 & 4/242 Yarra St, Warrandyte VIC](https://www.hopsandvineoz.com.au/)       |
+| [Hudsons Road Wine & Beer](https://hudsonsroad.com.au/)    | [2/88 Hudsons Rd, Spotswood VIC](https://hudsonsroad.com.au/)       |
 | [Let's Unwine Berwick](https://www.letsunwineberwick.com/)    | [65 High St, Berwick VIC](https://www.letsunwineberwick.com/)       |
 | [Local Cellars](https://www.localcellars.com.au/)    | [41 Spensley St, Clifton Hill VIC](https://www.localcellars.com.au/)       |
 | [Malvern Road Wine & Beer House](https://www.malvernroadwineandbeerhouse.com.au/)    | [1947 Malvern Rd, Malvern East VIC](https://www.malvernroadwineandbeerhouse.com.au/)       |
@@ -43,6 +45,7 @@ aliases = ["stockists","where to buy","find us"]
 | [Sessions West Brunswick](https://www.instagram.com/sessions_westbrunswick/)  | [82-86 Melville Rd, Brunswick West VIC](https://www.instagram.com/sessions_westbrunswick/)       |
 | [Slowbeer](https://slowbeer.com.au/)    | [351 Smith St, Fitzroy VIC](https://slowbeer.com.au/)        |
 | [The Great Beyond](https://tgbshop.com/)    | [152 Bell St, Coburg VIC](https://tgbshop.com/)        |
+| [The Hop Shop](https://www.thehopshop.com.au/)    | [26 Playne St, Frankston VIC](https://www.thehopshop.com.au/)        |
 | [The Hop Supply Co.](https://hopsupplyco.com/)    | [137 McCrae St, Bendigo VIC](https://hopsupplyco.com/)        |
 | [The Vin Wine & Spirits](https://www.facebook.com/thevinwineandspirits)    | [180 Victoria St, Seddon VIC](https://www.facebook.com/thevinwineandspirits)        |
 | [Village Vineyard - Fine Booze](http://www.villagevineyard.com.au/)    | [348 Queens Parade, Fitzroy North VIC](http://www.villagevineyard.com.au/)        |
