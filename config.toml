@@ -5,6 +5,7 @@ theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
+ignoreErrors = ["error-remote-getjson"]
 
 paginate  = 10
 rssLimit  = 0  # Maximum number of items in the RSS feed.
